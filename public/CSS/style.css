@@ -38,7 +38,7 @@ body header .banner span a {
   color: white;
   text-decoration: underline dotted;
 }
-body section {
+body .sect1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,10 +47,10 @@ body section {
   margin: 50px 150px;
   padding: 100px 350px;
 }
-body section .sect1-icon {
+body .sect1 .sect1-icon {
   padding-bottom: 20px;
 }
-body section .sect1-icon i {
+body .sect1 .sect1-icon i {
   border: #383838 2px solid !important;
   padding: 18px;
   padding-top: 22px;
@@ -60,45 +60,110 @@ body section .sect1-icon i {
   align-items: center;
   color: #383838;
 }
-body section .sect1-h2 {
+body .sect1 .sect1-h2 {
   margin: 0;
   padding: 0;
 }
-body section .sect1-h2 h2 {
+body .sect1 .sect1-h2 h2 {
   color: #383838;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: normal;
+  font-weight: lighter;
 }
-body section .sect1-text {
+body .sect1 .sect1-text {
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
 }
-body section .sect1-text p {
+body .sect1 .sect1-text p {
   text-align: center;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 2;
   color: #777777;
   font-weight: lighter;
 }
-body section .sect1-btn {
+body .sect1 .sect1-btn {
   margin: 0;
   padding: 0;
 }
-body section .sect1-btn button {
+body .sect1 .sect1-btn button {
   background-color: white;
   box-shadow: none;
   border: #777777 2px solid;
   padding: 15px 50px;
   border-radius: 5px;
 }
-body section .sect1-btn button a {
+body .sect1 .sect1-btn button a {
   text-transform: uppercase;
   text-decoration: none;
   color: #777777;
   letter-spacing: 4px;
   font-size: 12px;
+}
+body .sect2 {
+  margin: 50px 140px;
+  margin-bottom: 0px;
+}
+body .sect2 .sect2-row1 {
+  display: flex;
+  background-color: #777777;
+}
+body .sect2 .sect2-row1 .sect2-col-6 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../public/images/pic01.jpg");
+  background-color: #72727288;
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .banner h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .text {
+  padding: 20px 50px;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .text p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: normal;
+  color: #777777;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .button {
+  padding-bottom: 40px;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .button button {
+  padding: 10px 20px;
+  background-color: white;
+  border: #777777 solid 2px;
+  border-radius: 5px;
+}
+body .sect2 .sect2-row1 .sect2-col-6 .container .button button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777777;
+  font-weight: lighter;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
