@@ -265,6 +265,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  /** media queries gsm **/
 }
 footer .line {
   height: 2px;
@@ -285,6 +286,108 @@ footer .text p {
   color: #383838;
   letter-spacing: 1px;
   font-weight: lighter;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  body header .banner {
+    height: 30vh;
+    width: 100%;
+  }
+  body header .banner h1 {
+    font-size: 30px;
+  }
+  body header .banner span {
+    font-size: 9px;
+  }
+  body .sect1 {
+    margin: 0;
+    padding: 50px 10px;
+  }
+  body .sect1 .sect1-h2 h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+  body .sect1 .sect1-text p {
+    font-size: 10px;
+  }
+  body .sect1 .sect1-btn button {
+    padding: 10px;
+  }
+  body .sect1 .sect1-btn button a {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+  body .sect2 {
+    margin: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .banner1 h3 {
+    text-align: center;
+    font-size: 12px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text {
+    padding: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text p {
+    font-size: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button {
+    padding: 5px 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button a {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .banner2 h3 {
+    text-align: center;
+    font-size: 12px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text {
+    padding: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text p {
+    font-size: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button {
+    padding: 5px 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button a {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .banner3 h3 {
+    text-align: center;
+    font-size: 12px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text {
+    padding: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text p {
+    font-size: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button {
+    padding: 5px 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button a {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .banner4 h3 {
+    text-align: center;
+    font-size: 12px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text {
+    padding: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .text p {
+    font-size: 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button {
+    padding: 5px 10px;
+  }
+  body .sect2 .sect2-row1 .sect2-col-6 .container .button button a {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
